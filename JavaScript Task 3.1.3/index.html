@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Task 3.1.3 Homework</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<center>
+<div class="main">	
+	<div class="display">
+	<h1>Display Change Image</h1>
+	<img id="red" src="images/Red.Beehive.png" style="width: 300px"><br>
+	<button type="button" onclick="document.getElementById('red').src='images/Devil.dress.png'">Change</button>
+	<button type="button" onclick="document.getElementById('red').src='images/Red.Beehive.png'">Change Back</button>
+	</div>
+
+
+
+
+	<div class="hide">
+	<h1>Hide Image</h1>
+
+	<button type="button" onclick="document.getElementById('blue').style.display='none'">Hide</button>
+	<button type="button" onclick="document.getElementById('blue').style.display='block'">Reappere</button><br><img id="blue" src="images/Blue.lust.png" style="width: 300px"><br>
+	</div>	
+
+
+
+
+	<div class="text1">
+	<h1>Resize Text</h1>
+	<p id='text'> She is more dangerous than you know.</p>
+	<button type="button" onclick="document.getElementById('text').style.fontSize='50px'">Larger</button>
+	<button type="button" onclick="document.getElementById('text').style.fontSize='18px'">Normal</button></div>
+
+
+	<div class="text2">
+	<!-- I want to resize the image on click-->
+	<h1>Resize Image</h1>
+
+
+	<button type="button" onclick="document.getElementById('tan').style='width: 150px'">Smaller</button>
+	<button type="button" onclick="document.getElementById('tan').style='width: 300px'">Normal</button>
+	<button type="button" onclick="document.getElementById('tan').style='width: 500px'">Larger</button>
+		<img id="tan" src="images/Lust.Digital.png" style="width: 300px"></div>
+
+
+</div>
+</center>
+</body>
+</html>

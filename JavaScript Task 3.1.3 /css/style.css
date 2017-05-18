@@ -1,0 +1,50 @@
+.main {
+	display: flex;
+}
+
+p,h1{
+	text-align: center;
+}
+.display {
+	padding:10px;
+	background-color: rgb(150,150,150);
+	font-family: arial;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.hide {
+	background-color: rgb(256,150,250);
+	font-family: arial;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:10px;
+
+}
+
+.text1 {
+	background-color: rgb(150,150,150);
+	font-family: arial;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:10px;
+
+}
+
+.text2 {
+	background-color: rgb(256,150,250);
+	font-family: arial;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:10px;
+
+}
